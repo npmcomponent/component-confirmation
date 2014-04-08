@@ -1,27 +1,19 @@
 {
-  "name": "confirmation-component",
+  "name": "component-confirmation",
   "description": "Confirmation component",
   "version": "0.0.5",
   "keywords": [
     "confirmation",
-    "component"
+    "ui"
+  ],
+  "styles": [
+    "confirmation.css"
   ],
   "dependencies": {
-    "dialog-component": "*"
+    "component-event": "git://github.com/npmcomponent/component-event.git",
+    "component-dialog": "git://github.com/npmcomponent/component-dialog.git",
+    "component-inherit": "git://github.com/npmcomponent/component-inherit.git",
+    "component-query": "git://github.com/npmcomponent/component-query.git"
   },
-  "component": {
-    "styles": [
-      "confirmation.css"
-    ],
-    "scripts": {
-      "confirmation": "index.js"
-    },
-    "templates": {
-      "confirmation": "confirmation.html"
-    }
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/component/confirmation.git"
-  }
+  "license": "MIT"
 }

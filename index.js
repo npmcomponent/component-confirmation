@@ -2,11 +2,11 @@
  * Module dependencies.
  */
 
-var Dialog = require('dialog').Dialog
-  , events = require('event')
-  , q = require('query')
+var Dialog = require('component-dialog').Dialog
+  , events = require('component-event')
+  , q = require('component-query')
   , html = require('./confirmation.html')
-  , inherit = require('inherit');
+  , inherit = require('component-inherit');
 
 /**
  * Expose `confirm()`.
